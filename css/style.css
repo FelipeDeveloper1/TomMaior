@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    height: 15vh;
+    width: 100vw;
+    background-color: #1A1A24;
+}
+
+section {
+    display: flex;
+    background-color: #2E2D40;
+    height: 50vh;
+}
+
+.content-main {
+    height: 100%;
+    width: 75%;
+    background-color: tomato;
+}
+
+aside {
+    height: 100%;
+    width: 25%;
+    background-color: aqua;
+}
+
+.cards-cursos {
+    display: flex;
+    /* grid-template-rows: repeat(1, 1fr); */
+}
+
+.box-img {
+    width: 20vw;
+    height: 25vh;
+    background-color: #2E2D40;
+    margin-right: 10px;
+}
+
+
+/* pfv da certo, mano, namoral */
