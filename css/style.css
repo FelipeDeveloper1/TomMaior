@@ -5,6 +5,9 @@
     color: white;
 }
 
+body{
+    background-color: pink;
+}
 header {
     height: 15vh;
     width: 100vw;
