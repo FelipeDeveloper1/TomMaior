@@ -6,7 +6,12 @@
 }
 
 body {
-    background-color: #f0f0f0;
+<<<<<<< HEAD
+=======
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2D40;
+>>>>>>> 636503b6410607f8cea31cb889ad83a958f6c872
 }
 
 section {
