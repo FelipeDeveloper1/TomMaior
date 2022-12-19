@@ -1,75 +1,130 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        color: white;
-    }
-    
-    body {
-        display: flex;
-        flex-direction: column;
-        background-color: #2E2D40;
-    }
-    
-    section {
-        display: flex;
-        background-color: #2E2D40;
-        height: 50vh;
-    }
-    
-    aside {
-        border: 1px solid black;
-        width: 28%;
-    }
-    
-    .content-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 70%;
-    }
-    
-    .container-cursos {
-        height: 100%;
-        width: 80%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-    .box-cursos {
-        height: 20vh;
-        width: 15vw;
-        margin-top: 10px;
-        margin-left: 15px;
-        border-radius: 10px;
-    }
-    
-    .primeiro {
-        margin-left: 20px;
-        height: 43vh;
-        width: 20vw;
-        margin-right: 15px;
-        grid-row: 1/3;
-    }
-    
-    .professor {
-        font-family: "Roboto";
-        margin: 20px;
-        font-style: normal;
-        font-weight: bold;
-    }
-    /* pfv da certo, mano, namoral */
-    
-    .box-cursos>img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-    }
-    
-    .box-img>p {
-        grid-column: 1;
-        grid-row: 2/3;
-        text-align: center;
-        background-color: rgb(0, 0, 0, 0.6);
-        align-self: end;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2D40;
+}
+
+section {
+    display: flex;
+    background-color: #2E2D40;
+    height: 50vh;
+}
+
+.nossos_cursos {
+    height: 60vh;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.container-cursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    width: 80%;
+}
+
+.box-cursos {
+    width: 17vw;
+    height: 23vh;
+    box-shadow: 4px 4px 4px black;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.primeiro {
+    grid-row: 1/3;
+    height: 52vh;
+    width: 22vw;
+    margin-left: 10px;
+}
+
+.box-img {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.box-img>img {
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1/3;
+    border-radius: 10px;
+}
+
+.box-img>p {
+    grid-column: 1;
+    grid-row: 2/3;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    align-self: end;
+}
+
+.titulo {
+    width: 100%;
+    margin-left: 22%;
+}
+
+aside {
+    display: flex;
+    margin-top: 39px;
+    width: 25%;
+}
+
+.professores {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.professor {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.pos {
+    color: black;
+    font-size: 36px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+}
+
+.professor>p>a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.img-prof {
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.img-prof>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
