@@ -1,0 +1,15 @@
+.nossos-professores{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: teal;
+    height: 250px;
+
+}
+.nav-professores{
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.cursos{
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    margin: 20px;
+    height: 250px;
+}
+.nav-curso{
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bold;
+}
