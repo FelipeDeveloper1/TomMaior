@@ -67,6 +67,6 @@ section {
     grid-column: 1;
     grid-row: 2/3;
     text-align: center;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.6);
     align-self: end;
 }
