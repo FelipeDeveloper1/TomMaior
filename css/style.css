@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: #f0f0f0;
 }
 
 section {
@@ -24,7 +24,7 @@ section {
 aside {
     height: 100%;
     width: 25%;
-    background-color: aqua;
+    background-color: #2E2D40;
 }
 
 .cards-cursos {
