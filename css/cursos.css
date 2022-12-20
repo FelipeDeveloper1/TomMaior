@@ -1,7 +1,7 @@
-.cursos{
+.about-curso{
     display: flex;
     flex-direction: column;
-    background-color: teal;
+    background-color: #2E2D40;
     margin: 20px;
     height: 250px;
 }
@@ -10,4 +10,18 @@
     justify-content: center;
     font-family: "Roboto";
     font-weight: bold;
+}
+.curso-box{
+    width: 17vw;
+    height: 23vh;
+    box-shadow: 4px 4px 4px black;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-color: azure;
+}
+.container-prices{
+    display: flex;
+    flex-direction: row;
 }
