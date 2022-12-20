@@ -14,7 +14,7 @@ body {
 section {
     display: flex;
     background-color: #2E2D40;
-    height: 50vh;
+    height: 80vh;
 }
 
 .nossos_cursos {
@@ -97,7 +97,7 @@ aside {
 
 .professor {
     display: flex;
-    padding-top: 40px;
+    padding-top: 15px;
     align-items: center;
 }
 
