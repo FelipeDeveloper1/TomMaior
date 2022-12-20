@@ -21,16 +21,23 @@
     margin-right: 10px;
     border-radius: 10px;
     margin-left: 25px;
-    background-color: azure;
+    background-color:darkgrey;
+    border: 4px solid black;
 }
 .container-prices{
     display: flex;
+    border-radius: 10px;
     flex-direction: row;
 }
 .box-img-prices{
     height: 70%;
-    width: 100%;
-
+    width: 85%;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #2E2D40;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
 }
 .box-img-prices > img {
     width: 100%;
