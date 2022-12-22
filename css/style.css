@@ -11,14 +11,10 @@ body {
     background-color: #2E2D40;
 }
 
-section {
-    display: flex;
-    background-color: #2E2D40;
-    height: 80vh;
-}
-
 .nossos_cursos {
-    height: 60vh;
+    display: flex;
+    background-color: #2f28b8;
+    height: 70vh;
 }
 
 .content-main {
