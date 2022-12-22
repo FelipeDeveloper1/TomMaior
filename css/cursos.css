@@ -28,6 +28,7 @@
     display: flex;
     border-radius: 10px;
     flex-direction: row;
+    align-items: center;
 }
 .box-img-prices{
     height: 70%;
@@ -44,4 +45,26 @@
     width: 100%;
     height: 100%;
 
+}
+.arrow{
+    height: 8vh;
+    width: 4vw;
+    cursor: pointer;
+}
+.arrow > img{
+    height: 100%;
+    width: 100%;
+}
+#left-arrow{
+    border-radius: 10px;
+}
+#left-arrow, #right-arrow{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+#left-arrow img, #right-arrow img {
+    width: 100%;
+    height: 100%;
 }
