@@ -1,70 +1,80 @@
-.about-curso{
+.about-curso {
     display: flex;
     flex-direction: column;
-    background-color: #2E2D40;
-    margin: 20px;
-    height: 250px;
+    margin-top: 2vh;
+    height: 60vh;
     align-items: center;
     justify-content: center;
+    background-color: #1209ca;
 }
-.nav-curso{
+
+.nav-curso {
     text-align: center;
     justify-content: center;
     font-family: "Roboto";
     font-weight: bold;
+    margin-bottom: 10px
 }
-.curso-box{
+
+.curso-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20vw;
     height: 40vh;
-    box-shadow: 4px 4px 4px black;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0px 25px;
     border-radius: 10px;
-    margin-left: 25px;
-    background-color:darkgrey;
+    background-color: darkgrey;
     border: 4px solid black;
+    box-shadow: 4px 4px 4px black;
 }
-.container-prices{
+
+.container-prices {
     display: flex;
-    border-radius: 10px;
-    flex-direction: row;
     align-items: center;
 }
-.box-img-prices{
+
+.box-img-prices {
     height: 70%;
     width: 85%;
     border-radius: 10px;
-    margin: 20px;
     background-color: #2E2D40;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
     cursor: pointer;
 }
-.box-img-prices > img {
+
+.box-img-prices>img {
     width: 100%;
     height: 100%;
-
 }
-.arrow{
+
+.arrow {
     height: 8vh;
     width: 4vw;
     cursor: pointer;
 }
-.arrow > img{
+
+.arrow>img {
     height: 100%;
     width: 100%;
 }
-#left-arrow{
+
+#left-arrow {
     border-radius: 10px;
 }
-#left-arrow, #right-arrow{
+
+#left-arrow,
+#right-arrow {
     width: 30px;
     height: 30px;
     border: none;
     background-color: transparent;
 }
-#left-arrow img, #right-arrow img {
+
+#left-arrow img,
+#right-arrow img {
     width: 100%;
     height: 100%;
 }
