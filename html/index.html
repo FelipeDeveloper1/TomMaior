@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/cursos.css">
+    <link rel="stylesheet" href="../css/container-slider.css">
     <link rel="stylesheet" href="../css/nossos-professores.css">
     <link rel="stylesheet" href="../css/comentarios.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Roboto:ital@0;1&family=Unbounded:wght@300&display=swap">
+    <link rel="shortcut icon" href="../Imagens/icon-tomMaior.png" type="image/x-icon">
     <title>Tom Maior - Escola Livre de Música</title>
 </head>
 
@@ -122,38 +123,18 @@
                 </div>
             </aside>
         </section>
-        <section class="about-curso">
+        <section>
             <h1 class="nav-curso">Sobre os Cursos</h1>
-            <div class="container-prices">
-                <div class="arrow on" id="left-arrow">
-                    <img src="../Imagens/cursos/left-arrow.png" alt="">
+            <div class="container-slider">
+                <button id="prev-button"><img src="../Imagens/cursos/right-arrow.png" alt="prev-button"></button>
+                <div class="container-images">
+                    <img src="../Imagens/Instrumentos/prices-violin.jpg" alt="" class="slider on">
+                    <img src="../Imagens/Instrumentos/prices-guitarra.jpg" alt="" class="slider">
+                    <img src="../Imagens/Instrumentos/prices-saxofone.jpg" alt="" class="slider">
+                    <img src="../Imagens/Instrumentos/prices-violao.jpg" alt="" class="slider">
+                    <img src="../Imagens/Instrumentos/prices-canto.jpg" alt="" class="slider">
                 </div>
-                <div class="curso-box">
-                    <div class="box-img-prices">
-                        <!-- <img src="../images/prices-violin.jpg" alt=""> -->
-                    </div>
-                    <div class="nav-prices">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="curso-box">
-                    <div class="box-img-prices">
-                        <!-- <img src="../images/prices-canto.jpg" alt=""> -->
-                    </div>
-                </div>
-                <div class="curso-box">
-                    <div class="box-img-prices">
-                        <!-- <img src="../images/prices-saxofone.jpg" alt=""> -->
-                    </div>
-                </div>
-                <div class="curso-box">
-                    <div class="box-img-prices">
-                        <!-- <img src="../images/prices-guitarra.jpg" alt=""> -->
-                    </div>
-                </div>
-                <div class="arrow" id="right-arrow">
-                    <img src="../Imagens/cursos/right-arrow.png" alt="">
-                </div>
+                <button id="next-button"><img src="../Imagens/cursos/right-arrow.png" alt="next-button"></button>
             </div>
         </section>
         <!-- <h1 class="nav-comentarios">Comentários</h1>
@@ -170,7 +151,7 @@
         </section> -->
 
     </main>
-    <script src="code.js"></script>
+    <script src="../js/code.js"></script>
 </body>
 
 </html>
