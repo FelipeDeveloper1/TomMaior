@@ -162,3 +162,7 @@ aside {
         margin-top: 10px;
     }
 }
+
+.mobileIcon{
+    cursor: pointer;
+}
