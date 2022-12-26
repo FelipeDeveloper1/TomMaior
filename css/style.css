@@ -157,4 +157,8 @@ aside {
         width: 67vw;
         margin: auto;
     }
+    aside {
+        width: 100vw;
+        margin-top: 10px;
+    }
 }
