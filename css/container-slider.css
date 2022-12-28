@@ -8,21 +8,29 @@
   }
   .container-slider {
     display: flex;
-    width: 55vw;
-    height: 69vh;
+    width: 54vw;
+    height: 67vh;
     align-items: center;
     justify-content: center;
     margin-top: 5%;
-    background-color: #f0f0f0;
+    background-color:#f0f0f0;
     border-radius: 10px;
+    transition: transform 15s ease-in;
+  }
+
+  .text-nav{
+    display: none;
+  }
+  .active-block{
+    display: block;
   }
   .container-images {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70vw;
-    height: 69vh;
+    width: 50vw;
+    height: 90vh;
   }
   .edit-image{
     display: flex;
@@ -68,3 +76,9 @@
   .buttom-buttom{
     border-radius: 10px;
   }
+  .expends-active{
+    width: 95vw;
+    height: 68vh;
+    transition: transform 0.2s ease-in;
+    background-color: #f0f0f0;
+}
