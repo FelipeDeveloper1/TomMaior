@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/container-slider.css">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/cursos.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Roboto:ital@0;1&family=Unbounded:wght@300&display=swap">
     <link rel="shortcut icon" href="../Imagens/icon-tomMaior.png" type="image/x-icon">
     <title>Tom Maior - Escola Livre de Música</title>
@@ -121,25 +122,84 @@
                 </div>
             </aside>
         </section>
-        <section class="edit-image">
-            <h1 class="nav-curso">Sobre os Cursos</h1>
-            <div class="container-slider" id="toggle" onmouseenter="expand()">
-                <div class="text-nav">
-                </div>
-                <div class="buttom-buttom">
-                    <button id="prev-button"><img src="../Imagens/cursos/right-arrow.png" alt="prev-button"></button>
-                </div>
-                <div class="container-images">
-                    <img src="../Imagens/Instrumentos/prices-violin.jpg" alt="" class="slider on">
-                    <img src="../Imagens/Instrumentos/prices-guitarra.jpg" alt="" class="slider">
-                    <img src="../Imagens/Instrumentos/prices-saxofone.jpg" alt="" class="slider">
-                    <img src="../Imagens/Instrumentos/prices-violao.jpg" alt="" class="slider">
-                    <img src="../Imagens/Instrumentos/prices-canto-popular.jpg" alt="" class="slider">
-                </div>
-                <div class="buttom-buttom">
-                    <button id="next-button"><img src="../Imagens/cursos/right-arrow.png" alt="next-button"></button>
+        <section class="container">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content">
+                        <h1>Nossos Cursos</h1>
+                            <div class="container-cursos">
+                                <div class="box-cursos2 primeiro">
+                                    <div class="box-img2">
+                                       <h2>Curso de Violino</h2>
+                                    </div>
+                                </div>
+                            </div>    
+                    </div>
                 </div>
             </div>
+    
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <h1>Nossos Cursos</h1>
+                            <div class="container-cursos">
+                                <div class="box-cursos2 primeiro">
+                                    <div class="box-img">
+                                        <h2>Curso de guitarra</h2>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <h1>Nossos Cursos</h1>
+                        <div class="container-cursos">
+                            <div class="box-cursos2 primeiro">
+                                <div class="box-img">
+                                    <h2>Curso de Saxofone</h2>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <h1>Nossos Cursos</h1>
+                        <div class="container-cursos">
+                            <div class="box-cursos2 primeiro">
+                                <div class="box-img">
+                                    <h2>Curso de Canto Popular</h2>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <h1>Nossos Cursos</h1>
+                        <div class="container-cursos">
+                            <div class="box-cursos2 primeiro">
+                                <div class="box-img">
+                                    <h2>Curso de Violao</h2>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
         </section>
         <!-- <h1 class="nav-comentarios">Comentários</h1>
         <section class="comentarios">

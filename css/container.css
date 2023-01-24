@@ -1,0 +1,113 @@
+.container{
+    position: relative;
+}
+.container .slide-container .slide{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 400px;
+}
+.container .slide-container .slide .content{
+    flex: 1 1 350px;
+    animation: slideContent .4s linear .4s backwards;
+}
+
+@keyframes slideContent{
+    0%{
+    opacity: 0;
+    transform: translateX(-50px);
+    }
+}
+.container .slide-container .slide .content h1{
+    font-size: 35px;
+    color: #FFF2F2;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container .slide-container .slide .content p{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    width: 40%;
+    height: 10%;
+}
+
+.box-cursos2 {
+    width: 40vw;
+    height: 80vh;
+    box-shadow: 4px 4px 4px black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #2E2D40;
+}
+
+.container .slide-container{
+    display: none;
+}
+
+.container .slide-container.active{
+    display: block;
+}
+
+.container .slide-container:nth-child(1) .slide{
+    background: url(https://images.pexels.com/photos/697672/pexels-photo-697672.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.container .slide-container:nth-child(2) .slide{
+    background: url(https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .slide-container:nth-child(3) .slide{
+    background: url(https://images.pexels.com/photos/45243/saxophone-music-gold-gloss-45243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.container .slide-container:nth-child(4) .slide{
+    background: url(https://images.pexels.com/photos/144429/pexels-photo-144429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.container .slide-container:nth-child(5) .slide{
+    background: url(https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.container #prev, .container #next {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    background: #2E2D40;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+.container #prev:hover,.container #next:hover{
+    background: gray;
+}
+.container #prev{
+    left: 20px;
+}
+.container #next{
+    right: 20px;
+}
